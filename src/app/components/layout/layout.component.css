@@ -1,0 +1,11 @@
+.menu-horizontal {
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+}
+.menu-horizontal button {
+  font-size: 15px;
+  font-weight: 500;
+}

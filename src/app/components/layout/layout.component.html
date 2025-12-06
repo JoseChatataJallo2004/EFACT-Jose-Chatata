@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <h1>Sistema EFACT</h1>
+
+    <!-- ✔ YA NO NECESITAS EL BOTÓN DEL SIDENAV, LO QUITAMOS -->
+
+    <span style="flex:1 1 auto;"></span>
+
+    <label style="font-size: 14px; margin-right: 20px;"> Jose Chatata | Administrador</label>
+    <button mat-icon-button (click)="cerrarSesion()">
+      <mat-icon>logout</mat-icon>
+    </button>
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<!-- ✔ MENÚ HORIZONTAL -->
+<nav class="menu-horizontal">
+  <button mat-button routerLink="home">Home</button>
+  <button mat-button routerLink="dashboard">Dashboard</button>
+  <button mat-button routerLink="contactanos">Contáctanos</button>
+</nav>
+
+<!-- ✔ CONTENIDO PRINCIPAL -->
+<div style="height: 90vh; padding: 15px;">
+  <router-outlet></router-outlet>
+</div>
