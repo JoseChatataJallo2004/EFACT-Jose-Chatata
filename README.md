@@ -12,10 +12,11 @@ Proyecto Angular con soporte SSR (Server Side Rendering) y Angular Material, uti
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/usuario/efact-jose-chatata.git
+   git clone https://github.com/JoseChatataJallo2004/EFACT-Jose-Chatata.git
    cd efact-jose-chatata
 
 2. Instalar dependencias:
+   ```bash
     npm install
 
 ⚠️ He subido la parte de environments para que se vean los entornos de trabajo.
